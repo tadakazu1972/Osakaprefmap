@@ -10,7 +10,7 @@
         .append('g');
 
     // 同じディレクトリにあるgeojsonファイルをhttp経由で読み込む
-    d3.json("osaka.json", function(json) {
+    d3.json("/osaka.json", function(json) {
            var projection,
                  path;
 

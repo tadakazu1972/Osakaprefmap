@@ -32,7 +32,7 @@
             .attr('d', path)
             .attr("fill", function(d){
                 // 適当に色を塗るなど
-                return "hsl(0,0%,80%)";
+                return "hsl(90,100%,50%)";
             })
             .attr("stroke","hsl(80,100%,0%)" )
             .on('mouseover', function(d){

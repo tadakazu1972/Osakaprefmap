@@ -16,7 +16,7 @@
 
            // 投影を処理する関数を用意する。データからSVGのPATHに変換するため。
            projection = d3.geo.mercator()
-                  .scale(40000)
+                  .scale(35000)
                   .center(d3.geo.centroid(json))  // データから中心点を計算
                   .translate([width / 2, height / 2]);
 
